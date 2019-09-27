@@ -1,0 +1,111 @@
+body{
+    background-color: azure;
+    margin: 20px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightsalmon;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  sub,li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  ul li:last-child{
+     float: left;
+     background-color: #111;
+     
+  }
+
+  #copy{
+      float: right;
+  }
+
+  header{
+      height: 10%;
+  }
+  .main{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  footer{
+      height: 10%;
+  }
+  
+  #genre{
+      width: 30%;
+      height: 100%
+  }
+
+  #movies{
+      width: 70%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+      align-content: center;
+  }
+
+  .genre{
+      background-color: blueviolet;
+      margin-right: 30px;
+      height: 100%;
+  }
+
+  .movies-item{
+      width: 500px;
+      height: 500px;
+      border: 2px solid gray;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      text-align: center;
+      margin-top: 30px;
+      flex: auto;
+  }
+
+  .movie-img{
+      width: 150px;
+      height: 250px;
+      
+  }
+
+  .m-title{
+      background-color: aqua;
+      width: 100%;
+  }
+
+  .price{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
