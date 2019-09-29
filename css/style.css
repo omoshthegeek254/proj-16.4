@@ -53,23 +53,33 @@ ul {
   }
   
   #genre{
-      width: 30%;
-      height: 100%
+      width: 20%;
+      margin-bottom: 40px;
+      min-height: 100%;
   }
 
   #movies{
       width: 70%;
-      height: 100%;
+      min-height: 100%;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 20px;
       align-content: center;
+      margin-bottom: 30px;
   }
 
   .genre{
-      background-color: blueviolet;
+    background-color: lightsalmon;
+    
       margin-right: 30px;
       height: 100%;
+      min-height: 100%;
+      
+      margin-bottom: 20px;
+  }
+
+  .genre p{
+    position: sticky;
   }
 
   .movies-item{
@@ -83,6 +93,7 @@ ul {
       text-align: center;
       margin-top: 30px;
       flex: auto;
+      overflow: auto;
   }
 
   .movie-img{
