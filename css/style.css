@@ -4,7 +4,9 @@ body{
 
 }
 
-ul {
+
+
+.header ul,footer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -13,7 +15,7 @@ ul {
   }
   
   li {
-    float: right;
+    float: left;
   }
   
   sub,li a {
@@ -29,23 +31,27 @@ ul {
     background-color: #111;
   }
 
-  ul li:last-child{
-     float: left;
-     background-color: #111;
+ .header ul li:last-child, .footer ul li:last-child{
+     float: right;
+     background-color:#111;
+     right: 20%;
+
+     
      
   }
 
   #copy{
-      float: right;
+      float: inline-start;
   }
 
   header{
       height: 10%;
   }
   .main{
-    height: 80%;
+    min-height: 700px;
     display: flex;
     flex-direction: row;
+    clear: both;
     
   }
   footer{
@@ -103,7 +109,7 @@ ul {
   }
 
   .m-title{
-      background-color: aqua;
+      background-color: lightsalmon;
       width: 100%;
   }
 
@@ -120,3 +126,77 @@ ul {
     cursor: pointer;
     border-radius: 12px;
   }
+
+  #contact{
+    background-image:url(../images/rio2.jpg) ;
+    border: 2px solid red;
+    padding: 200px;
+    margin-left: ;
+    width: 100%;
+    max-height: 100%;
+    
+    MAX-width: 100%;
+    background-size: contain;
+    overflow: auto;
+    opacity: 10;
+
+  }
+
+  #overlay{
+    padding-left:400px;
+    padding-top: 50px;
+    background-color: antiquewhite; 
+    max-width: 800px;
+    scroll-padding-right: 400px;
+    padding-bottom: 50px;
+  }
+
+table,th,tr ,td{
+ background-color: antiquewhite;
+ border: 2px solid black;
+ border-collapse: collapse;
+ padding: 20px;
+ margin: 2px;
+
+}
+
+th{
+  background-color: lightsalmon;
+}
+
+
+/*
+.genre{
+  padding: 20px;
+  background-color: white;
+  
+  position: absolute;
+  
+  left: 16px;
+  font-size: 18px;
+}
+
+.genre > p{
+  border: 3px solid black;
+  box-shadow: 4px 4px 1px grey;
+  padding: 10px;
+  text-align: centre;
+}
+
+.genre > p:hover{
+  border: 3px solid lime;
+  box-shadow: 4px 4px 1px grey;
+  background-color: cream;
+  padding: 10px;
+}
+added genre styling*/
+
+
+#payment{
+display: flex;
+
+}
+
+#payment li{
+  flex-direction: column;
+}
