@@ -45,10 +45,10 @@ body{
   }
 
   header{
-      height: 10%;
+      height: ;
   }
   .main{
-    min-height: 700px;
+    min-height: 500px;
     display: flex;
     flex-direction: row;
     clear: both;
@@ -97,8 +97,8 @@ body{
       flex-direction: column;
       align-content: center;
       text-align: center;
-      margin-top: 30px;
-      flex: auto;
+      margin-top: 10px;
+      
       overflow: auto;
   }
 
@@ -198,7 +198,7 @@ width: 100%;
 padding-left:200px;
     padding-top: 50px;
     background-color: antiquewhite;
-    background-image: url('https://images.financialexpress.com/2019/04/coins.jpg') ;
+    background-image: url('https://static.posters.cz/image/750/obrazy-na-platne/mimoni-ja-padouch-minion-wave-i34166.jpg') ;
    
     padding-bottom: 50px;
 
@@ -227,6 +227,7 @@ padding-left:200px;
   border: 5px dashed lightsalmon;
   padding: 50px;
   background-image: url("http://static-1.ivoox.com/audios/9/1/4/9/9061562109419_XXL.jpg");
+  font-size: 25px;
 
 
 
@@ -234,6 +235,15 @@ padding-left:200px;
 .intro{
   padding: 50px;
   text-align: center;
+  background-image: url("http://giphygifs.s3.amazonaws.com/media/13bjQGtqxnZxxm/giphy.gif");
+  opacity: 0.7;
   
 }
 
+.galary img{
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
