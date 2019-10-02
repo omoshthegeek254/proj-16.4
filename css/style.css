@@ -128,7 +128,7 @@ body{
   }
 
   #contact{
-    background-image:url(../images/rio2.jpg) ;
+    background-image:url("https://i1.wp.com/www.cinefilos.it/wp-content/uploads/2014/04/Rio-2-recensione.jpg") ;
     border: 2px solid red;
     padding: 200px;
     margin-left: ;
@@ -222,5 +222,18 @@ padding-left:200px;
   text-align: center;
   border: 1px solid lightsalmon;
   border-radius: 30px;
+}
+.cont{
+  border: 5px dashed lightsalmon;
+  padding: 50px;
+  background-image: url("http://static-1.ivoox.com/audios/9/1/4/9/9061562109419_XXL.jpg");
+
+
+
+}
+.intro{
+  padding: 50px;
+  text-align: center;
+  
 }
 
